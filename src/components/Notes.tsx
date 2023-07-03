@@ -1,9 +1,10 @@
 "use client"
 import { useState } from 'react';
 import { useUser } from '@clerk/clerk-react';
-import NoteList from '../components/NoteList';
-import NoteForm from '../components/NoteForm';
 import { initialNotes } from './Data';
+import NoteForm from './NoteForm';
+import NoteList from './NoteList';
+
 
 
 const Notes = () => {
