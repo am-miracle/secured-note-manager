@@ -29,7 +29,7 @@ const Notes = () => {
             <h1 className="text-2xl">Create a New Note</h1>
             <NoteForm onCreate={handleNoteCreate} />
           </>
-        ): <p className="text-2xl text-white">Create an account or log in to create a note.</p>} 
+        ): <p className="text-2xl text-white">Create an account or log in to create a note.</p>}
       </div>
       <div className="w-full mt-10 ">
         {notes ? (
