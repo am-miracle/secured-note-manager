@@ -43,11 +43,11 @@ const Header = () => {
                         <div className="my-1 flex items-center gap-2">
                             <button type="button"
                             className="mr-2 inline-block rounded px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white border border-blue-800">
-                            <SignInButton />
+                            <SignInButton redirectUrl='/notes' />
                             </button>
                             <button type="button"
                             className="inline-block rounded bg-primary px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white bg-blue-800">
-                            <SignUpButton />
+                            <SignUpButton redirectUrl='/notes' />
                             </button>
                         </div>
                     )
